@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+.rainbow {
+  /* border: 1px solid red; */
+  height: 200px;
+  overflow: hidden;
+}
+.rainbow div {
+  overflow: hidden; /* 防止margin合并（rainbow里面所有的div） */
+}
+.rainbow > div {
+  /*border: 2px solid red;*/
+  height: 400px;
+  width: 400px;
+  background: red;
+  border-radius: 50%;
+}
+.rainbow > div > div {
+  /*border: 2px solid orange;*/
+  height: 380px;
+  background: orange;
+  margin: 10px;
+  border-radius: 50%;
+}
+.rainbow > div > div > div {
+  /*border: 2px solid yellow;*/
+  height: 360px;
+  background: yellow;
+  margin: 10px;
+  border-radius: 50%;
+}
+.rainbow > div > div > div > div {
+  /*border: 2px solid green;*/
+  height: 340px;
+  background: green;
+  margin: 10px;
+  border-radius: 50%;
+}
+.rainbow > div > div > div > div > div {
+  /* border: 2px solid greenyellow;*/
+  height: 320px;
+  background: greenyellow;
+  margin: 10px;
+  border-radius: 50%;
+}
+.rainbow > div > div > div > div > div > div {
+  /* border: 2px solid skyblue;*/
+  height: 300px;
+  background: skyblue;
+  margin: 10px;
+  border-radius: 50%;
+}
+.rainbow > div > div > div > div > div > div > div {
+  /*border: 2px solid rgb(192, 57, 192);*/
+  height: 280px;
+  background: rgb(192, 57, 192);
+  margin: 10px;
+  border-radius: 50%;
+}
+.rainbow > div > div > div > div > div > div > div > div {
+  /*border: 2px solid white;*/
+  height: 260px;
+  background: white;
+  margin: 10px;
+  border-radius: 50%;
+}
